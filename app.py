@@ -3,7 +3,7 @@ from dotenv import load_dotenv
 load_dotenv()
 import base64
 import streamlit as st
-import os
+import os, sys
 import io
 from PIL import Image 
 import pdf2image
@@ -114,6 +114,7 @@ elif submit4:
         st.write(response)
     else:
         st.write("Please uplaod the resume")
+
 
 
 
